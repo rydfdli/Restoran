@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Warung makan | Lalapan</title>
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- Swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="d-flex flex-column vh-100">
+
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg fw-bold navbar-light">
+        <div class="container">
+            <a class="navbar-brand fw-normal" href="#">LA<span style="color: salmon;">LA</span>PAN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">BERANDA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">MENU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">TENTANG KAMI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kontak">KONTAK</a>
+                    </li>
+                    <li class="nav-item ms-2">
+                        <a class="nav-link">
+                            <i class="bi bi-cart4 me-1"></i>
+                            MASUK
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero start -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-lg-5 my-auto" data-aos="fade-right">
+                    <h1 class="fw-bold judul">Warung <span> Lalapan</span>, Tempat Nongkrong dan Makan Enak</h1>
+                    <p class="fw-normal text-black-50">
+                        Menu kami beragam, dari Ayam lalapan, Pecel lele, Ikan Bakar, Nasi Goreng dan Makanan
+                        tradisional
+                        lainnya
+                    </p>
+                    <button type="button" class="btn btn-danger rounded-pill py-3 px-4">Pesan sekarang</button>
+                </div>
+                <div class="col-lg-7 d-flex justify-content-center">
+                    <img src="img/Header.png" class="img-fluid" data-aos="zoom-in" alt="ayam">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero end -->
+
+    <!-- Menu section start -->
+    <div class="menu my-5" id="menu">
+        <div class="container">
+            <div class="row">
+                <div class="col mt-4">
+                    <h1 class="text-center pt-3">Menu Populer</h1>
+                    <h6 class="text-center text-black-50">Ini adalah menu rekomendasi dari kami</h6>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col px-5 swiper">
+                    <div class="mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card border-0 myCard">
+                                    <img src="img/thumb.jpeg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4 class="card-title fw-bold">Ayam bakar lalapan</h4>
+                                        <div class="text-warning fw-normal my-2">
+                                            <i class="bi bi-star-fill me-1"></i> 4.5
+                                        </div>
+                                        <p class="card-text fw-normal fs-6 text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem possimus aut dolores explicabo quia eum placeat modi inventore quis veniam?</p>
+                                        <div class="row">
+                                            <div class="col d-flex align-items-center justify-content-between">
+                                                <span class="fw-bold">IDR 12.000</span>
+                                                <button type="button" class="btn btn-danger rounded-pill"><i
+                                                        class="bi bi-plus-lg"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card border-0 myCard">
+                                    <img src="img/thumb.jpeg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4 class="card-title fw-bold">Ayam bakar lalapan</h4>
+                                        <div class="text-warning fw-normal my-2">
+                                            <i class="bi bi-star-fill me-1"></i> 4.5
+                                        </div>
+                                        <p class="card-text fw-normal fs-6 text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem possimus aut dolores explicabo quia eum placeat modi inventore quis veniam?</p>
+                                        <div class="row">
+                                            <div class="col d-flex align-items-center justify-content-between">
+                                                <span class="fw-bold">IDR 12.000</span>
+                                                <button type="button" class="btn btn-danger rounded-pill"><i
+                                                        class="bi bi-plus-lg"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card border-0 myCard">
+                                    <img src="img/thumb.jpeg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4 class="card-title fw-bold">Ayam bakar lalapan</h4>
+                                        <div class="text-warning fw-normal my-2">
+                                            <i class="bi bi-star-fill me-1"></i> 4.5
+                                        </div>
+                                        <p class="card-text fw-normal fs-6 text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem possimus aut dolores explicabo quia eum placeat modi inventore quis veniam?</p>
+                                        <div class="row">
+                                            <div class="col d-flex align-items-center justify-content-between">
+                                                <span class="fw-bold">IDR 12.000</span>
+                                                <button type="button" class="btn btn-danger rounded-pill"><i
+                                                        class="bi bi-plus-lg"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card border-0 myCard">
+                                    <img src="img/thumb.jpeg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4 class="card-title fw-bold">Ayam bakar lalapan</h4>
+                                        <div class="text-warning fw-normal my-2">
+                                            <i class="bi bi-star-fill me-1"></i> 4.5
+                                        </div>
+                                        <p class="card-text fw-normal fs-6 text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem possimus aut dolores explicabo quia eum placeat modi inventore quis veniam?</p>
+                                        <div class="row">
+                                            <div class="col d-flex align-items-center justify-content-between">
+                                                <span class="fw-bold">IDR 12.000</span>
+                                                <button type="button" class="btn btn-danger rounded-pill"><i
+                                                        class="bi bi-plus-lg"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card border-0 myCard">
+                                    <img src="img/thumb.jpeg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4 class="card-title fw-bold">Ayam bakar lalapan</h4>
+                                        <div class="text-warning fw-normal my-2">
+                                            <i class="bi bi-star-fill me-1"></i> 4.5
+                                        </div>
+                                        <p class="card-text fw-normal fs-6 text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem possimus aut dolores explicabo quia eum placeat modi inventore quis veniam?</p>
+                                        <div class="row">
+                                            <div class="col d-flex align-items-center justify-content-between">
+                                                <span class="fw-bold">IDR 12.000</span>
+                                                <button type="button" class="btn btn-danger rounded-pill"><i
+                                                        class="bi bi-plus-lg"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card border-0 myCard">
+                                    <img src="img/thumb.jpeg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4 class="card-title fw-bold">Ayam bakar lalapan</h4>
+                                        <div class="text-warning fw-normal my-2">
+                                            <i class="bi bi-star-fill me-1"></i> 4.5
+                                        </div>
+                                        <p class="card-text fw-normal fs-6 text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem possimus aut dolores explicabo quia eum placeat modi inventore quis veniam?</p>
+                                        <div class="row">
+                                            <div class="col d-flex align-items-center justify-content-between">
+                                                <span class="fw-bold">IDR 12.000</span>
+                                                <button type="button" class="btn btn-danger rounded-pill"><i
+                                                        class="bi bi-plus-lg"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card border-0 myCard">
+                                    <img src="img/thumb.jpeg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4 class="card-title fw-bold">Ayam bakar lalapan</h4>
+                                        <div class="text-warning fw-normal my-2">
+                                            <i class="bi bi-star-fill me-1"></i> 4.5
+                                        </div>
+                                        <p class="card-text fw-normal fs-6 text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem possimus aut dolores explicabo quia eum placeat modi inventore quis veniam?</p>
+                                        <div class="row">
+                                            <div class="col d-flex align-items-center justify-content-between">
+                                                <span class="fw-bold">IDR 12.000</span>
+                                                <button type="button" class="btn btn-danger rounded-pill"><i
+                                                        class="bi bi-plus-lg"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card border-0 myCard">
+                                    <img src="img/thumb.jpeg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4 class="card-title fw-bold">Ayam bakar lalapan</h4>
+                                        <div class="text-warning fw-normal my-2">
+                                            <i class="bi bi-star-fill me-1"></i> 4.5
+                                        </div>
+                                        <p class="card-text fw-normal fs-6 text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem possimus aut dolores explicabo quia eum placeat modi inventore quis veniam?</p>
+                                        <div class="row">
+                                            <div class="col d-flex align-items-center justify-content-between">
+                                                <span class="fw-bold">IDR 12.000</span>
+                                                <button type="button" class="btn btn-danger rounded-pill"><i
+                                                        class="bi bi-plus-lg"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card border-0 myCard">
+                                    <img src="img/thumb.jpeg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4 class="card-title fw-bold">Ayam bakar lalapan</h4>
+                                        <div class="text-warning fw-normal my-2">
+                                            <i class="bi bi-star-fill me-1"></i> 4.5
+                                        </div>
+                                        <p class="card-text fw-normal fs-6 text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem possimus aut dolores explicabo quia eum placeat modi inventore quis veniam?</p>
+                                        <div class="row">
+                                            <div class="col d-flex align-items-center justify-content-between">
+                                                <span class="fw-bold">IDR 12.000</span>
+                                                <button type="button" class="btn btn-danger rounded-pill"><i
+                                                        class="bi bi-plus-lg"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev swiper-nav-btn text-danger"></div>
+                        <div class="swiper-button-next swiper-nav-btn text-danger"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Menu section end -->
+
+    <!-- About section start -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7" data-aos="fade-left">
+                    <img src="img/Header 2.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-5 my-auto" data-aos="zoom-in">
+                    <h1>Tentang Kami</h1>
+                    <p class="fw-normal text-black-50">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Possimus praesentium incidunt architecto rerum in, non odio commodi repudiandae quidem
+                        laudantium nulla autem aut quas est veritatis assumenda officiis quos fugit labore laborum
+                        delectus adipisci! Aliquid cumque enim, deleniti temporibus quia neque labore debitis vel hic
+                        repellendus dolore atque facere perspiciatis.</p>
+                    <button type="button" class="btn btn-secondary rounded-pill py-3 px-4">Selengkapnya</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About section end -->
+
+    <!-- Contact section start -->
+    <section id="kontak" class="kontak py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 my-auto">
+                    <h1>Subscribe Newsletter</h1>
+                    <p class="text-black-50">Jadilah yang pertama tahu tentang item menu terbaru kami, promosi khusus
+                        dan diskon ekslusif hanya tersedia untu subscriber kami.</p>
+                </div>
+                <div class="col-lg-6 my-auto">
+                    <div class="input-wrapper">
+                        <input type="email" placeholder="Masukkan Email anda..">
+                        <button class="bg-danger">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- Contact section end -->
+
+    <!-- Footer start-->
+    <footer class="bg-danger py-4 text-center mt-auto">
+        <div class="container">
+            <div class="row p-2 media">
+                <div class="col text-light">
+                    <i class="bi bi-facebook mx-2"></i>
+                    <i class="bi bi-instagram mx-2"></i>
+                    <i class="bi bi-whatsapp mx-2"></i>
+                    <i class="bi bi-twitter mx-2"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <a href="#" class="text-decoration-none text-light mx-2">Beranda</a> |
+                    <a href="#menu" class="text-decoration-none text-light mx-2">Menu</a> |
+                    <a href="#about" class="text-decoration-none text-light mx-2">Tentang kami</a> |
+                    <a href="#kontak" class="text-decoration-none text-light mx-2">Kontak</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-light my-2 fs-6">
+                    Created by Riyadi F &copy; 2020
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+    </script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 25,
+            loop: true,
+            centerSlide: 'true',
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                300: {
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 25,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 25,
+                },
+            },
+        });
+    </script>
+
+</body>
+
+</html>
