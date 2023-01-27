@@ -11,6 +11,7 @@ body {
 }
 
 /* NAV */
+.navbar-toggler,
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
