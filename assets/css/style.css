@@ -38,15 +38,34 @@ body {
 
 /* MENU SECTION START */
 
-.myCard{
-    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+.myCard {
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
-.swiper{
+.img-wrap img{
+    object-fit: cover;
+    max-height: 180px;
+    border-radius: 5px;
+}
+
+.overlay{
+    background-color: black;
+}
+
+.card-text {
+    height: 100px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.swiper {
     padding: 20px 0;
 }
 
-.mySwiper{
+.mySwiper {
     margin: 0 10px;
     padding: 20px 10px;
     /* overflow: hidden; */
@@ -54,8 +73,7 @@ body {
 }
 
 .swiper-nav-btn::before,
-.swiper-nav-btn::after
-{
+.swiper-nav-btn::after {
     font-size: 18px;
 }
 
