@@ -10,6 +10,17 @@ body {
     min-height: 100vh;
 }
 
+/* NAV */
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+/* NAV END */
+
 /* HERO SECTION START */
 .hero {
     background-repeat: no-repeat;
